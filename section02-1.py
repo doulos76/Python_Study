@@ -32,3 +32,21 @@ print("{a} are {b}".format(a='You', b='Me'))
 #%s : String, %d : Integer, %f : Float Number
 print("%s's favorite number is %d" % ('EunJee', 7)) 
 
+print("Test1: %5d, Price: %4.2f" %(776, 6534.123))
+print("Test1: {0: 5d}, Price: {1: 4.2f}".format(776, 6534.123))
+print("Test1: {a: 5d}, Price: {b: 4.2f}".format(a=776, b=6534.123))
+
+# escape code
+"""
+\n : 개행
+
+"""
+
+print("'you'")
+print('\'you\'')
+print('"you"')
+print("""'you'""")
+print('\\you\\\n')
+print('test')
+
+print('\t\t\ttest')
