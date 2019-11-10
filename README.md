@@ -36,3 +36,37 @@ activate.csh     easy_install     pip              pip3.7           python3
 * Python 설정
 * Python: Select Interpreter
 * tasks.json 설정 (단축키 설정)
+
+## 가상환경 및 패키지
+* [참고](https://docs.python.org/ko/3/tutorial/venv.html)
+
+### pip로 package 관리하기
+* 필요 package 검색 예제
+
+```
+(tutorial-env) $ pop search simplejson
+```
+
+* 설치
+
+```
+(tutorial-env) $ pop install simplejson
+```
+
+* 내용 확인
+
+```
+(tutorial-env) $ pop show simplejson
+```
+
+* 가상환경에 설치된 내용 확인
+
+```
+(tutorial-env) $ pop list
+```
+
+* 설치된 package 삭제
+
+```
+(tutorial-env) $ pop uninstall simplejson
+```
