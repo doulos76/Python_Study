@@ -69,6 +69,7 @@ else:
     print("I'm sorry, you lost.")
 
 # 다중조건문
+
 num = 82
 if num >= 90:
     print("num 등급 A", num)
@@ -81,7 +82,7 @@ else:
 
 # 중첩 조건문
 
-age = 17
+age = 27
 height = 175
 
 if age >= 20:
@@ -93,3 +94,5 @@ if age >= 20:
         print("지원 불가")
 else:
     print("20세 이상 지원 가능")
+
+# Sequency(순서가 있는) 자료형 반복
